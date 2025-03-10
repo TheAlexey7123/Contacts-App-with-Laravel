@@ -24022,3 +24022,24 @@ textarea.form-control-lg {
     background-size: cover;
     color: white;
 }
+
+.py-4{
+    background: #222222;
+}
+
+body{
+    background: #222222;
+}
+
+.card{
+    color: #ffffff;
+    border-width: 0;
+}
+
+.card-header{
+    background-color: #424242;
+}
+
+.card-body{
+    background-color: #303030;
+}
