@@ -1,0 +1,86 @@
+.navbar img {
+    width: 1.2rem;
+}
+
+.welcome {
+    background: url('/img/background.jpg');
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+
+.py-4{
+    background: #222222;
+}
+
+body{
+    background: #222222;
+}
+
+.card{
+    color: #ffffff;
+    border-width: 0;
+}
+
+.card-header{
+    background-color: #424242;
+}
+
+.card-body{
+    background-color: #303030;
+}
+
+.name, .text{
+    color: white;
+}
+
+.profile-picture{
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
+
+.big-picture{
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+}
+
+/* Para cambiar el color de los números de paginación */
+.pagination .page-link {
+    color: white;
+    background-color: transparent; /* Si deseas que el fondo sea transparente */
+}
+
+.pagination .page-link:hover {
+    color: white; /* Para cuando se pasa el mouse */
+    background-color: #00aaff; /* Por ejemplo, un fondo azul al pasar el mouse */
+}
+
+.pagination .page-item.active .page-link {
+    color: white; /* Para el número activo */
+    background-color: #001883; /* Un fondo azul para el número activo */
+}
+
+/* Cambiar el color del texto de paginación (por ejemplo, "Showing X to Y of Z results") */
+.pagination-info {
+    color: white;
+}
+
+/* Si usas Bootstrap 4 o 5, puede ser algo como esto también */
+.pagination .page-info {
+    color: white;
+}
+
+.pagination-info .text-muted {
+    color: white !important;
+    margin-right: 20px;
+}
+
+.white{
+    color: white;
+}
+
+.space{
+    margin-bottom: 300px;
+}
